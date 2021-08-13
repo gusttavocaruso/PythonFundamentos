@@ -1,6 +1,7 @@
 # Python Fundamentos Para Análise de Dados 3.0
 
-Este repositório forkado contém os Jupyter-Notebooks do curso de Python para Data Science da Data Science Academy do qual estou cursando farei commits atualizando os diretórios.
+Este repositório forkado contém os Jupyter-Notebooks do curso de Python para Data Science da DSA do qual estou cursando.
+Farei commits dos exercícios que completar e assim atualizarei os diretórios de acordo com meu progresso no curso.
 
 
 
