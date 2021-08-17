@@ -5,65 +5,66 @@
 import random
 
 # Board (tabuleiro)
-board = ['''
+board = [
+	'''
+	>>>>>>>>>>Hangman<<<<<<<<<<
 
->>>>>>>>>>Hangman<<<<<<<<<<
-
-+---+
-|   |
-    |
-    |
-    |
-    |
-=========''', '''
-
-+---+
-|   |
-O   |
-    |
-    |
-    |
-=========''', '''
-
-+---+
-|   |
-O   |
-|   |
-    |
-    |
-=========''', '''
-
- +---+
- |   |
- O   |
-/|   |
-     |
-     |
-=========''', '''
-
- +---+
- |   |
- O   |
-/|\  |
-     |
-     |
-=========''', '''
-
- +---+
- |   |
- O   |
-/|\  |
-/    |
-     |
-=========''', '''
-
- +---+
- |   |
- O   |
-/|\  |
-/ \  |
-     |
-=========''']
+	+---+
+	|   |
+	    |
+	    |
+	    |
+	    |
+	=========''',
+	'''
+	+---+
+	|   |
+	O   |
+	    |
+	    |
+	    |
+	=========''',
+	'''
+	+---+
+	|   |
+	O   |
+	|   |
+	    |
+	    |
+	=========''',
+	'''
+	 +---+
+	 |   |
+	 O   |
+	/|   |
+	     |
+	     |
+	=========''',
+	'''
+	 +---+
+	 |   |
+	 O   |
+	/|\  |
+	     |
+	     |
+	=========''',
+	'''
+	 +---+
+	 |   |
+	 O   |
+	/|\  |
+	/    |
+	     |
+	=========''',
+	'''
+	 +---+
+	 |   |
+	 O   |
+	/|\  |
+	/ \  |
+	     |
+	========='''
+]
 
 
 # Classe
@@ -83,8 +84,7 @@ class Hangman:
 		
 	# Método para verificar se o jogador venceu
 	def hangman_won(self):
-		
-
+			
 	# Método para não mostrar a letra no board
 	def hide_word(self):
 		
@@ -95,9 +95,9 @@ class Hangman:
 
 # Função para ler uma palavra de forma aleatória do banco de palavras
 def rand_word():
-        with open("palavras.txt", "rt") as f:
-                bank = f.readlines()
-        return bank[random.randint(0,len(bank))].strip()
+	with open("palavras.txt", "rt") as f:
+					bank = f.readlines()
+	return bank[random.randint(0,len(bank))].strip()
 
 
 # Função Main - Execução do Programa
@@ -108,7 +108,6 @@ def main():
 
 	# Enquanto o jogo não tiver terminado, print do status, solicita uma letra e faz a leitura do caracter
 	
-
 	# Verifica o status do jogo
 	game.print_game_status()	
 
