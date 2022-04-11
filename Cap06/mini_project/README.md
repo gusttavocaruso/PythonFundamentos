@@ -16,7 +16,6 @@ Ao aplicar Análise Exploratória de Dados vamos responder a estas 10 perguntas:
   - 10. Quais São os Top 10 Piores Filmes?
 
 
-
 comandos utilizados no terminal referentes ao Jupyter:
 
 `./Notebooks/DSA-Python-Cap06-09-Mini-Projeto1`
