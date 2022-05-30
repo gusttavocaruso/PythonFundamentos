@@ -5,3 +5,6 @@
 .git
 .tmp
 .temp
+.venv
+downloads
+imdb.db
